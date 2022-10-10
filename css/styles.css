@@ -1,0 +1,177 @@
+/* general styses */
+
+body {font-family: 'Roboto', sans-serif;}
+/* font-family: 'Raleway', sans-serif; - не знаю чи потріюно його в фонт фамілі прописувати, мабуть ні він не домінуючий. Ментор підскажіть як вірно?*/
+
+.link { 
+text-decoration: none; color: #212121;
+}
+
+.list {
+    list-style: none;
+}
+
+/* body styles */
+/* header styses */
+
+.header {
+    font-weight: 500;
+    font-size: 14px;    
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;}
+
+.logotipe {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #000000;}
+
+.studio {color: #2196F3;}
+
+.header-mail {color: #2196F3;}
+
+.header-tel {color: #757575;}
+
+/* main styles */
+
+.cap {background: #2F303A;}
+
+.cap-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;}
+
+.cap-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;}
+
+/* styles features */
+
+.features-list h3{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;}
+
+.features-list p {font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;}
+
+/* styles we-do */
+
+.we-do-h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* styses Our-team */
+
+.our-team-h2 {font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;}
+
+.our-team h3 {font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;}
+
+.our-team p {font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;}
+
+/* styles footer */
+
+.footer {background: #2F303A;}
+
+.footer-logotipe {font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;}
+
+.adress {font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;}
+
+.footer-info {font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);}
+
+    /* stises for pages portfolio */
+
+    /* main styles */
+
+.button-all {background: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;}
+
+.filters-button {
+    background: #F5F4FA;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;}
+
+    /* styles portfolio list */
+
+.portfolio-list h3 {
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 2.0;
+        letter-spacing: 0.06em;
+        color: #212121;
+}
+
+.portfolio-list p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.87;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
