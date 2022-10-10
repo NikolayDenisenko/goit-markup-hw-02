@@ -1,6 +1,6 @@
 /* general styses */
 
-body {font-family: 'Roboto', sans-serif;}
+body {font-family: 'Roboto', sans-serif; color: #212121;}
 /* font-family: 'Raleway', sans-serif; - не знаю чи потріюно його в фонт фамілі прописувати, мабуть ні він не домінуючий. Ментор підскажіть як вірно?*/
 
 .link { 
@@ -29,7 +29,7 @@ text-decoration: none; color: #212121;
     letter-spacing: 0.03em;
     color: #000000;}
 
-.studio {color: #2196F3;}
+.header-item:hover:focus {color: #2196F3;}
 
 .header-mail {color: #2196F3;}
 
@@ -59,7 +59,8 @@ text-decoration: none; color: #212121;
     color: #FFFFFF;
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;}
+    border-radius: 4px;
+    cursor: pointer;}
 
 /* styles features */
 
@@ -134,7 +135,7 @@ text-decoration: none; color: #212121;
 
     color: rgba(255, 255, 255, 0.6);}
 
-    /* stises for pages portfolio */
+    /* STYSES FOR PORTFOLIO.HTML*/
 
     /* main styles */
 
@@ -146,7 +147,8 @@ text-decoration: none; color: #212121;
         line-height: 1.5;
         text-align: center;
         letter-spacing: 0.03em;
-        color: #FFFFFF;}
+        color: #FFFFFF;
+        cursor: pointer;}
 
 .filters-button {
     background: #F5F4FA;
@@ -156,7 +158,8 @@ text-decoration: none; color: #212121;
     line-height: 26px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;}
+    color: #212121;
+    cursor: pointer;}
 
     /* styles portfolio list */
 
