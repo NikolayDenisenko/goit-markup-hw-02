@@ -25,7 +25,7 @@ text-decoration: none; color: #212121;
     color: #212121;}
 
 .logotipe-link {
-    font-family: var(--second-font)
+    font-family: var(--second-font);
    }
 
 .header-item:hover:focus {color: #2196F3;}
