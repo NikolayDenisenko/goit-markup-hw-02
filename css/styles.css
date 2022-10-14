@@ -1,38 +1,56 @@
 /* general styses */
 
-body {font-family: 'Roboto', sans-serif; color: #212121;}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    color: var(--color-body);
+}
+
+:root {
+    --color-body: color #212121;
+    --second-font: 'Raleway', sans-serif;
+    
+}
 
 .link { 
-text-decoration: none; color: #212121;
+text-decoration: none; 
+color: var(--color-body);
 }
 
 .list {
     list-style: none;
 }
 
-:root {
-    --second-font: 'Raleway', sans-serif;
-    }
+
 
 /* body styles */
 /* header styses */
 
 .header-list {
     font-weight: 500;
-    font-size: 14px;    
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #212121;}
+    /* color: var(--color-body);} */}
 
-.logotipe-link {
+.logotipe {
     font-family: var(--second-font);
-   }
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31/26);
+    }
 
-.header-item:hover:focus {color: #2196F3;}
+.header-text-web {color: #2196F3;}
+.header-text-studio {color: #000000;}
 
-.header-mail {color: #2196F3;}
+.header-item:hover, .header-item:focus, .header-item:active {color: #2196F3;}
+ 
+
+.header-mail  {color: #757575;}
+.header-mail:hover, .header-mail:focus, .header-mail:active {color: #2196F3;}
 
 .header-tel {color: #757575;}
+.header-tel:hover, .header-tel:focus, .header-tel:active {color: #2196F3;}
 
 /* main styles */
 
@@ -55,7 +73,7 @@ text-decoration: none; color: #212121;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
+    font-family: inherit;
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -65,17 +83,14 @@ text-decoration: none; color: #212121;
 
 .features-list h3{
     font-weight: 700;
-    font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.03em;
     text-transform: uppercase;}
 
 .features-list p {font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
     line-height: 24px;
-    letter-spacing: 0.03em;
+   
     color: #757575;}
 
 /* styles we-do */
@@ -85,54 +100,61 @@ text-decoration: none; color: #212121;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
-    letter-spacing: 0.03em;
+    
 }
 
 /* styses Our-team */
+
+.our-team {background: #F5F4FA;}
 
 .our-team-h2 {font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
-    letter-spacing: 0.03em;}
+    }
 
 .our-team h3 {font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
-    letter-spacing: 0.03em;}
+    }
 
-.our-team p {font-weight: 400;
+.our-team p {
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
-    letter-spacing: 0.03em;}
+    }
 
 /* styles footer */
 
 .footer {background: #2F303A;}
 
-.footer-logotipe {font-family: 'Raleway';
+.footer-text-web {
+    color: #2196F3;}
+
+.footer-text-studio {
+    color: #FFFFFF;}
+
+.footer-logotipe {
+    font-family: var(--second-font);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
+    
     color: #2196F3;}
 
-.adress {font-weight: 400;
-    font-size: 14px;
+.footer-adress {font-style: normal;}
+
+.adress {
     line-height: 1.71;
-    letter-spacing: 0.03em;
+    
     color: #FFFFFF;}
 
-.footer-info {font-weight: 400;
-    font-size: 14px;
+.footer-info {
     line-height: 24px;
-    /* or 171% */
-
-    letter-spacing: 0.03em;
-
+   
     color: rgba(255, 255, 255, 0.6);}
+
 
     /* STYSES FOR PORTFOLIO.HTML*/
 
@@ -152,15 +174,14 @@ text-decoration: none; color: #212121;
             overflow: hidden;
     }
 
-.button-all {background: #2196F3;
+.button-all {background: #F5F4FA;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         text-align: center;
-        letter-spacing: 0.03em;
-        color: #FFFFFF;
+        font-family:inherit;
         cursor: pointer;}
 
 .filters-button {
@@ -170,9 +191,12 @@ text-decoration: none; color: #212121;
     font-size: 16px;
     line-height: 26px;
     text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
+    
+    font-family: inherit;
     cursor: pointer;}
+
+    .button-all:hover, .button-all:focus, .button-all:active {background: #2196F3; color: #F5F4FA;}
+    .filters-button:hover, .filters-button:focus, .filters-button:active {background: #2196F3; color: #F5F4FA}
 
     /* styles portfolio list */
 
@@ -181,13 +205,12 @@ text-decoration: none; color: #212121;
         font-size: 18px;
         line-height: 2.0;
         letter-spacing: 0.06em;
-        color: #212121;
+        color: var(--color-body);
 }
 
 .portfolio-list p {
-        font-weight: 400;
         font-size: 16px;
         line-height: 1.87;
-        letter-spacing: 0.03em;
+        
         color: #757575;
 }
