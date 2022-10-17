@@ -8,9 +8,9 @@ body {
 }
 
 :root {
-    --color-body: color #212121;
+    --color-body: #212121;
     --second-font: 'Raleway', sans-serif;
-    
+    --accent-color: #2196F3;
 }
 
 .link { 
@@ -44,7 +44,7 @@ color: var(--color-body);
 .header-text-studio {color: #000000;}
 
 .header-item:hover, .header-item:focus, .header-item:active {color: #2196F3;}
- 
+.header-item { color: var(--accent-color); }
 
 .header-mail  {color: #757575;}
 .header-mail:hover, .header-mail:focus, .header-mail:active {color: #2196F3;}
@@ -74,6 +74,7 @@ color: var(--color-body);
     text-align: center;
     letter-spacing: 0.06em;
     font-family: inherit;
+    color: #FFFFFF;
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -84,6 +85,7 @@ color: var(--color-body);
 .features-list h3{
     font-weight: 700;
     line-height: 1.14;
+    font-size: 14px;
     text-transform: uppercase;}
 
 .features-list p {font-family: 'Roboto';
@@ -155,12 +157,13 @@ color: var(--color-body);
    
     color: rgba(255, 255, 255, 0.6);}
 
+.footer-item:hover, .footer-item:focus, .footer-item:active {color: #2196F3;}
 
     /* STYSES FOR PORTFOLIO.HTML*/
 
     /* main styles */
 
-    .visually-hidden {
+    .visually-hidden, .features-h2 {
         position: absolute;
             width: 1px;
             height: 1px;
