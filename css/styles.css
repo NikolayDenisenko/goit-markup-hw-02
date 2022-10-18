@@ -1,16 +1,17 @@
 /* general styses */
 
+:root {
+    --second-font: 'Raleway', sans-serif;
+    --color-body: #212121;
+    --color-body-second: #757575;
+    --accent-color: #2196F3;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     letter-spacing: 0.03em;
     color: var(--color-body);
-}
-
-:root {
-    --color-body: #212121;
-    --second-font: 'Raleway', sans-serif;
-    --accent-color: #2196F3;
 }
 
 .link { 
@@ -31,7 +32,7 @@ color: var(--color-body);
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    /* color: var(--color-body);} */}
+    color: var(--color-body);}
 
 .logotipe {
     font-family: var(--second-font);
@@ -44,13 +45,19 @@ color: var(--color-body);
 .header-text-studio {color: #000000;}
 
 .header-item:hover, .header-item:focus, .header-item:active {color: #2196F3;}
-.header-item { color: var(--accent-color); }
 
-.header-mail  {color: #757575;}
-.header-mail:hover, .header-mail:focus, .header-mail:active {color: #2196F3;}
+.header-list-adress  {
+    color: var(--color-body-second);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.02em;}
 
-.header-tel {color: #757575;}
-.header-tel:hover, .header-tel:focus, .header-tel:active {color: #2196F3;}
+.header-list-adress:hover, .header-list-adress:focus, .header-list-adress:active {color: #2196F3;}
+
+
+
+.active-link {background-color: #2196F3;}
 
 /* main styles */
 
@@ -93,7 +100,7 @@ color: var(--color-body);
     font-weight: 400;
     line-height: 24px;
    
-    color: #757575;}
+    color: var(--color-body-second);}
 
 /* styles we-do */
 
@@ -147,19 +154,23 @@ color: var(--color-body);
 
 .footer-adress {font-style: normal;}
 
-.adress {
-    line-height: 1.71;
-    
-    color: #FFFFFF;}
+.footer-adres-item {
+        font-size: 14px;
+        line-height: calc(24/14);
+        letter-spacing: 0.03em;
+        color: #FFFFFF;}
 
-.footer-info {
-    line-height: 24px;
-   
-    color: rgba(255, 255, 255, 0.6);}
+.footer-item {
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);}
 
 .footer-item:hover, .footer-item:focus, .footer-item:active {color: #2196F3;}
+.footer-adres-item:hover, .footer-adres-item:focus, .footer-adres-item:active {color: #2196F3;}
+    
 
-    /* STYSES FOR PORTFOLIO.HTML*/
+/* STYSES FOR PORTFOLIO.HTML*/
 
     /* main styles */
 
@@ -214,6 +225,5 @@ color: var(--color-body);
 .portfolio-list p {
         font-size: 16px;
         line-height: 1.87;
-        
-        color: #757575;
+        color: var(--color-body-second);
 }
